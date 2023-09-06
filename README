@@ -1,0 +1,13 @@
+**Short Description**: 
+Automation frameworks setup was done using Playwright, Typescript tech stack. Tests can be run in headless and headed mode, just update playwright.config.ts to headless=true if you want to execute tests without opening browser locally. To run tests on Github actions you need to push code to git repository. Tests will execute on every push to master.
+
+**Installations**:
+1. Install Playwright
+2. Install node
+3. Run npm install to install all required packages
+
+**Execute Tests**
+npx playwright test
+
+**Reporting** 
+If test fails just copy playwright report url from terminal containing details and paste it in your browser to open detailed report.
